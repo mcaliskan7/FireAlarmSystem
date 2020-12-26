@@ -96,7 +96,7 @@ void SendTextMessage()
 {
   mySerial.println("AT+CMGF=1");    //To send SMS in Text Mode
   delay(2000);
-  mySerial.println("AT+CMGS=\"+905360687818\"\r"); // change to the phone number you using 
+  mySerial.println("AT+CMGS=\"+90xxxxxxxxxx\"\r"); // change to the phone number you using 
   delay(2000);
   mySerial.println("FIRE DETECTED!");//the content of the message
   delay(200);
