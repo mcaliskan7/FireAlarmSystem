@@ -32,7 +32,7 @@ void loop()
 {
   mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  mySerial.println("AT+CMGS=\"+905360687818\"\r"); // Replace x with mobile number
+  mySerial.println("AT+CMGS=\"+90xxxxxxxxxx\"\r"); // Replace x with mobile number
   delay(1000);
   mySerial.println("SENT BY GSM MODULE THANKS TO ARDUINO UNO");// The SMS text you want to send
   delay(100);
